@@ -4,7 +4,6 @@
 TERM = "xterm-256color"
 
 [colors.primary]
-# background = "#09090d"
 background = "#574464"
 foreground = "#e3c7fc"
 
