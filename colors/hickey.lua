@@ -10,7 +10,7 @@ local function hl(...)
 end
 
 local colors = {
-    color_1 = "#1b1b29",
+    color_1 = "#362740",
     color_2 = "#574464",
     color_3 = "#140a1d",
     color_4 = "#B52A5B",
@@ -130,7 +130,7 @@ if (vim.fn.has("termguicolors") and vim.opt.termguicolors) or vim.fn.has("gui_ru
     vim.g.colors_name = "hickey"
 
     hl("SignColumn", { bg = colors.color_2 })
-    hl("LineNr", { fg = colors.color_69, bg = colors.color_2 })
+    hl("LineNr", { fg = colors.color_10, bg = colors.color_2 })
     hl("CursorLineNr", { fg = colors.color_68, bg = colors.color_2 })
 
     hl("DiagnosticUnderlineError", { sp = colors.color_14 })
@@ -153,7 +153,7 @@ if (vim.fn.has("termguicolors") and vim.opt.termguicolors) or vim.fn.has("gui_ru
     hl("CmpBorder", { fg = colors.color_7 })
     hl("CmpSelection", { fg = colors.color_18, bold = true })
 
-    hl("Beacon", { bg = colors.color_1 })
+    hl("Beacon", { bg = colors.color_10 })
 
     hl("BookmarkSign", { fg = colors.color_22 })
     hl("BookmarkLine", {})
