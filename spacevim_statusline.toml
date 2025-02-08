@@ -1,0 +1,38 @@
+
+# put this in your init.toml
+#
+[options]
+# TODO figure out how to put this in our plugin?
+#     " the theme colors should be
+# " [
+# "    \ [ a_guifg,  a_guibg,  a_ctermfg,  a_ctermbg],
+# "    \ [ b_guifg,  b_guibg,  b_ctermfg,  b_ctermbg],
+# "    \ [ c_guifg,  c_guibg,  c_ctermfg,  c_ctermbg],
+# "    \ [ z_guibg,  z_ctermbg],
+# "    \ [ i_guifg,  i_guibg,  i_ctermfg,  i_ctermbg],
+# "    \ [ v_guifg,  v_guibg,  v_ctermfg,  v_ctermbg],
+# "    \ [ r_guifg,  r_guibg,  r_ctermfg,  r_ctermbg],
+# "    \ [ ii_guifg, ii_guibg, ii_ctermfg, ii_ctermbg],
+# "    \ [ in_guifg, in_guibg, in_ctermfg, in_ctermbg],
+# " \ ]
+# " group_a: window id
+# " group_b/group_c: stausline sections
+# " group_z: empty area
+# " group_i: window id in insert mode
+# " group_v: window id in visual mode
+# " group_r: window id in select mode
+# " group_ii: window id in iedit-insert mode
+# " group_in: windows id in iedit-normal mode
+
+    custom_color_palette = [
+        ["#140a1d", "#E9729D", 246, 235],
+        ["#140a1d", "#bd93f9", 239, 246],
+        ["#140a1d", "#bd93f9", 237, 246],
+        ["#f1c4e0", 241],
+        ["#140a1d", "#B52A5B", 235, 109],
+        ["#140a1d", "#E9729D", 235, 208],
+        ["#140a1d", "#F18FB0", 235, 108],
+        ["#140a1d", "#B52A5B", 235, 72],
+        ["#140a1d", "#E9729D", 235, 132],
+    ]
+
