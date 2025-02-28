@@ -10,8 +10,9 @@ local function hl(...)
 end
 
 local colors = {
-    color_1 = "#362740",
-    color_2 = "#574464",
+    color_1 = "#362740", -- highlight bar
+    -- color_1 = "#F6C459", -- a nice yellow
+    color_2 = "#574464", -- window background color
     color_3 = "#140a1d",
     color_4 = "#B52A5B",
     color_5 = "#FF4971",
@@ -32,8 +33,8 @@ local colors = {
     color_20 = "#e086e0",
     color_21 = "#ac2958",
     color_22 = "#2f77a1",
-    color_23 = "#5d5daf",
-    color_24 = "#6272a4",
+    color_23 = "#F6C459", -- comments: a nice yellow
+    color_24 = "#F6C459", -- comments: a nice yellow
     color_25 = "#000000",
     color_26 = "#ea9296",
     color_27 = "#c081fa",
