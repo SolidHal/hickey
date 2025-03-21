@@ -11,14 +11,21 @@ end
 
 local colors = {
     color_1 = "#362740", -- highlight bar
+    fg = "#362740", -- highlight bar
     -- color_1 = "#F6C459", -- a nice yellow
     color_2 = "#574464", -- window background color
+    bg1 = "#574464", -- window background color
+    bg2 = "#574464", -- window background color
     color_3 = "#140a1d",
     color_4 = "#B52A5B",
+    red = "#B52A5B",
     color_5 = "#FF4971",
+    orange = "#FF4971",
     color_6 = "#8897F4",
+    blue = "#8897F4",
     color_7 = "#bd93f9",
     color_8 = "#E9729D",
+    purple = "#E9729D",
     color_9 = "#F18FB0",
     color_10 = "#f1c4e0",
     color_11 = "#a8899c",
